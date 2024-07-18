@@ -26,7 +26,7 @@ vector_store = FAISS.from_documents(text_chunks, embeddings)
 
 # Create LLM
 llm = CTransformers(
-    model="llama-2-7b-chat.ggmlv3.q4_0.bin",
+    model="TheBloke/llama-2-7b-chat.ggmlv3.q4_0.bin",
     model_type="llama",
     streaming=True,
     callbacks=[StreamingStdOutCallbackHandler()],
