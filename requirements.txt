@@ -13,3 +13,4 @@ tiktoken
 huggingface-hub
 ctransformers
 pypdf
+langchain_huggingface
